@@ -11,7 +11,7 @@
 
 <h2>How to edit password and username?</h2>
 
-Open your browser and go to duckduckgo.com and type `sha3-512 Yourstring` and as duckduckgo are smart they will answer you with the hash
+Open your browser and go to <a href="https://duckduckgo.com">DuckDuckGo</a> and type `sha3-512 Yourstring` and as duckduckgo are smart they will answer you with the hash
 then do `cd $HOME && nano auth.py` there you will see the source code you only gotta add your hashed string into `sha3_512uname = "yourstring goes here"` and `sha3_512pword` for the password.
 
 Using `echo yourstring | sha3 -a 512` don't work i realy don't know why 🤔
