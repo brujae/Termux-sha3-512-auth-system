@@ -12,7 +12,7 @@ sha3_512pword = "c6f22fcae2f30e415f2b7f5efb6c29b959e2b4d1db9fbaf238c63873c7fb44f
 #Check if user run it on python < 3
 if sys.version_info[0] < 3:
 	print("\n\t\tFor \033[31msafety\033[0m it only work on python \033[31m3\033[0m or \033[31mlater.\033[0m\n")
-	exit();
+	exit()
 
 def login():
       while True:
